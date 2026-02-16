@@ -1,0 +1,21 @@
+{
+    "name": "Parquet3",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "Retail2",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "BronzeLayer/Store",
+                "fileSystem": "retaildata"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
