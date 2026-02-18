@@ -1,6 +1,6 @@
 # Azure Data Engineering Retail Platform
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents the design and implementation of an end-to-end Azure Data Engineering platform built to support retail analytics using the Medallion Architecture (Bronze, Silver, Gold).
 
@@ -10,7 +10,7 @@ The final outputs are visualized through an interactive Power BI dashboard, enab
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 The solution follows a modern Data Lakehouse pattern:
 
@@ -18,7 +18,7 @@ The solution follows a modern Data Lakehouse pattern:
 
 ---
 
-## ⚙️ Technology Stack
+## Technology Stack
 
 - **Azure SQL Database** – Source system
 - **REST API** – External data source
@@ -28,7 +28,7 @@ The solution follows a modern Data Lakehouse pattern:
 - **Delta Lake** – Optimized storage format
 - **Power BI** – Business intelligence & reporting
 
-## 👨‍💻 Author
+## Author
 
 **Chaitanya Karthik**  
 Data Engineer | Azure | Databricks | Data Analytics
