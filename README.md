@@ -1,35 +1,84 @@
-# Azure Data Engineering Retail Platform
+🛒 Retail Analytics Data Engineering Platform (Azure Lakehouse)
+📌 Overview
 
-## Project Overview
+This project showcases the design and implementation of a modern end-to-end Azure Data Engineering solution for retail analytics using the Medallion Architecture (Bronze, Silver, Gold).
 
-This project presents the design and implementation of an end-to-end Azure Data Engineering platform built to support retail analytics using the Medallion Architecture (Bronze, Silver, Gold).
+The platform integrates multiple data sources, builds scalable ETL pipelines, and delivers business insights through interactive dashboards. It demonstrates hands-on expertise in cloud data engineering, distributed processing, and analytics-driven solutions.
 
-The solution integrates Azure SQL Database and a REST API as data sources, Azure Data Factory for data ingestion and orchestration, Azure Data Lake Storage Gen2 for scalable storage, and Azure Databricks for distributed data processing using Apache Spark. Data from multiple sources, including structured database tables and API-driven JSON datasets, is ingested into the Bronze layer, cleansed and standardized in the Silver layer, and transformed into business-ready analytical datasets in the Gold layer using Delta Lake.
+🏗️ Architecture
 
-The final outputs are visualized through an interactive Power BI dashboard, enabling insights into sales performance, product trends, store metrics, and transaction behavior. This project demonstrates practical experience in building modern cloud-based data pipelines, multi-source data integration, scalable ETL workflows, and analytics-driven data solutions.
+The solution follows a Lakehouse Architecture combining data lake flexibility with warehouse performance:
 
----
+Azure SQL Database + REST API
+            ↓
+   Azure Data Factory (ADF)
+            ↓
+   ADLS Gen2 (Bronze Layer)
+            ↓
+    Azure Databricks (Spark)
+            ↓
+   Silver Layer (Cleaned Data)
+            ↓
+   Gold Layer (Aggregated Data)
+            ↓
+        Power BI Dashboard
+🔄 Data Flow
+🥉 Bronze Layer (Raw Data Ingestion)
+Ingests data from:
+Azure SQL Database (structured data)
+REST API (JSON data)
+Stores raw data in ADLS Gen2
+Maintains source-level fidelity for traceability
+🥈 Silver Layer (Data Processing & Cleaning)
+Data transformation using Azure Databricks (PySpark)
+Key operations:
+Data cleansing (null handling, deduplication)
+Schema standardization
+Data validation
+Stored in Delta Lake format for performance and reliability
+🥇 Gold Layer (Business-Ready Data)
+Aggregated and transformed datasets for analytics
+Optimized for reporting use cases:
+Sales performance
+Product trends
+Store-level insights
+Customer transaction behavior
+⚙️ Technology Stack
+Component	Technology Used
+Data Sources	Azure SQL Database, REST API
+Data Ingestion	Azure Data Factory (ADF)
+Storage	Azure Data Lake Storage Gen2
+Processing Engine	Azure Databricks (Apache Spark)
+Storage Format	Delta Lake
+Visualization	Power BI
+📊 Key Features
+✅ End-to-end data pipeline orchestration
+✅ Multi-source data integration (SQL + API)
+✅ Scalable distributed processing using Spark
+✅ Implementation of Medallion Architecture
+✅ Delta Lake for ACID transactions & performance
+✅ Automated ETL workflows using ADF
+✅ Interactive Power BI dashboards for insights
+📈 Business Insights Delivered
 
-##  Architecture
+The Power BI dashboard enables:
 
-The solution follows a modern Data Lakehouse pattern:
+📌 Sales trend analysis
+📌 Product performance tracking
+📌 Store-level KPIs
+📌 Customer transaction patterns
+📌 Data-driven decision making
 
-**Azure SQL Database → Azure Data Factory → ADLS Gen2 (Bronze Layer) → Azure Databricks → Silver Layer → Gold Layer → Power BI**
+🧠 Skills Demonstrated
+Azure Data Engineering
+ETL Pipeline Design
+Data Lakehouse Architecture
+Apache Spark (PySpark)
+Data Modeling & Transformation
+API Integration
+Data Visualization (Power BI)
+Distributed Data Processing
+👨‍💻 Author
 
----
-
-## Technology Stack
-
-- **Azure SQL Database** – Source system
-- **REST API** – External data source
-- **Azure Data Factory (ADF)** – Data ingestion & orchestration
-- **Azure Data Lake Storage Gen2 (ADLS)** – Data lake storage
-- **Azure Databricks** – Data transformation & processing
-- **Delta Lake** – Optimized storage format
-- **Power BI** – Business intelligence & reporting
-
-## Author
-
-**Chaitanya Karthik**  
+Chaitanya Karthik
 Data Engineer | Azure | Databricks | Data Analytics
-
