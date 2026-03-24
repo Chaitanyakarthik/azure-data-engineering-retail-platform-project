@@ -29,9 +29,7 @@ Delivered interactive Power BI dashboards to provide insights into sales perform
 
 Implemented ingestion pipelines for:
 
-✔ Azure SQL Database (structured data)
-✔ REST API (JSON datasets)
-✔ Automated orchestration using Azure Data Factory
+✔ Azure SQL Database (structured data) ✔ REST API (JSON datasets) ✔ Automated orchestration using Azure Data Factory
 
 Why this matters
 ➡️ Real-world systems rely on diverse data sources — this reflects production-grade ingestion patterns.
