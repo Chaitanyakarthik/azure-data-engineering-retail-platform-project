@@ -122,6 +122,6 @@ Data Transformation & Modeling
 Data Quality & Validation
 REST API Integration
 Power BI Reporting
-🎯 Role Alignment
+
 
 
