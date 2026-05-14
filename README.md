@@ -124,21 +124,4 @@ REST API Integration
 Power BI Reporting
 🎯 Role Alignment
 
-This project aligns strongly with:
 
-✔ Data Engineer
-✔ Azure Data Engineer
-✔ Cloud Data Engineer
-✔ Analytics Engineer
-✔ BI Developer
-👨‍💻 About the Author
-
-Chaitanya Karthik
-Management Information Systems | Data Engineering | Cloud Analytics
-
-🔗 LinkedIn
-https://www.linkedin.com/in/chaitanya-karthik-t/
-
-⭐ Final Note
-
-This project reflects how modern organizations build scalable, analytics-ready data platforms using Azure — moving beyond simple ETL into full data engineering lifecycle design.
